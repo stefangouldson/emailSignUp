@@ -30,6 +30,7 @@ body {
     font-size: 30px;
     color: rgb(49, 47, 47);
     background-color: yellow;
+    border: 2px solid black;
   }
   
   p {
@@ -48,11 +49,13 @@ body {
     width: 60px;
     margin-left: 10px;
     border: yellow 1px solid;
+    font-weight: bolder;
   }
 
   button:hover{
       color: rgb(49, 47, 47);
       background-color: yellow;
+      border: 2px rgb(49, 47, 47) solid;
   }
   
   .sub {
