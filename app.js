@@ -1,11 +1,12 @@
 const mysql = require ('mysql');
 const {promisify}=require ('util');
 // const faker=require ('faker');
+const {password} = require('password')
 
 const connection = mysql.createConnection ({
     host:"localhost",
     user:"root",
-    password:"StEfAn20192792",
+    password:`${password}`,
     database:"join_us"
 });
 
